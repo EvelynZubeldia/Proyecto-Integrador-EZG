@@ -9,37 +9,55 @@
     <meta name="author" content="Evelyn Zubeldia González">
 </head>
 <body>
-    <!-- NAV: aquí irá el menú (UD4) -->
+    <header>
+        <!-- Menú -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quiensoy.html">Quiénsoy</a></li>
+                <li><a href="saw.html">Saw</a></li>
+                <li><a href="terrifier.html">Terrifier</a></li>
+                <li><a href="warren.html">Expediente Warren</a></li>
+            </ul>
+        </nav>
+        <!--Quien soy y contactos-->    
+        <div>
+            <h1>Quién soy &amp; Contactos</h1>
+            <p>Conoce a la persona que está detrás de esta página web &#9786;.</p>
+        </div>
+        <hr>
+    </header>
 
-    <!--Quien soy y contactos-->    
-    <div>
-        <h1>Quién soy &amp; Contactos</h1>
-        <p>Conoce a la persona que está detrás de esta página web &#9786;.</p>
-    </div>
-
+    <main>
     <!--Información sobre la creadora-->
-    <div>
-        <h2>&#9733; Sobre la creadora</h2>
-        <img  src="img/Evelyn.jpg" alt="Foto mia con animatronico" width="500">
-        <p>&iexcl; Holitaa &#33; Soy <b>Evelyn</b>. En mi núcleo cercano de amigos me llaman <i>Saw</i> porque el cine de terror y Halloween forma parte de mi vida.</p>
-    </div>
+        <section>
+            <h2>&#9733; Sobre la creadora</h2>
+            <img  src="img/Evelyn.jpg" alt="Foto mia con animatronico" width="500">
+            <article>
+                <p>&iexcl; Holitaa &#33; Soy <b>Evelyn</b>. En mi núcleo cercano de amigos me llaman <i>Saw</i> porque el cine de terror y Halloween forma parte de mi vida.</p>
+            </article>
+        </section>
+        <hr>
 
-    <!--El origen del proyecto-->
-    <div>
-        <h2>&#9733; El origen del proyecto</h2>
-        <p>&iquest;De dónde viene esta gran pasión&#63; Desde que soy una enana me han gustado las películas de terror, pero el verdadero motor viene de mi casa:
-            <b>en mi familia siempre se ha celebrado Halloween a lo bestia</b>, convirtiendo cada año esta festividad en una
-            auténtica tradición llena de disfraces, ambiente y adrenalina.
-        </p>
-        <img  src="img/familia.jpg" alt="Foto familiar halloween 2024" width="500">
-        <img  src="img/Disfraz.jpg" alt="Foto familiar halloween 2024" width="500">
-        <p>&dagger;Esta página web nace con la ilusión de compartir mi gran pasión hacia el terror, sobretodo sus películas, que me han acompañado
-            a lo largo de todas mis etapas, y espero que así continúe siempre&dagger; 
-        </p>
-    </div>
+        <!--El origen del proyecto-->
+        <section>
+            <h2>&#9733; El origen del proyecto</h2>
+            <article>
+                <p>&iquest;De dónde viene esta gran pasión&#63; Desde que soy una enana me han gustado las películas de terror, pero el verdadero motor viene de mi casa:
+                    <b>en mi familia siempre se ha celebrado Halloween a lo bestia</b>, convirtiendo cada año esta festividad en una
+                    auténtica tradición llena de disfraces, ambiente y adrenalina.
+                </p>
+                <img  src="img/familia.jpg" alt="Foto familiar halloween 2024" width="500">
+                <img  src="img/Disfraz.jpg" alt="Foto familiar halloween 2024" width="500">
+                <p>&dagger;Esta página web nace con la ilusión de compartir mi gran pasión hacia el terror, sobretodo sus películas, que me han acompañado
+                    a lo largo de todas mis etapas, y espero que así continúe siempre&dagger; 
+                </p>
+            </article>
+        </section>
+        <hr>
 
     <!--Información de contacto & Formulario de sugerencias-->
-    <div>
+    <section>
         <h2>&#9733; Contactos</h2>
         <p>&iquest;Quieres comentarme algo sobre algunas de estas maravillosas sagas de películas de terror&#63;&iquest;O tal vez quieres contarme cualquier idea que se te ocurra respecto a cualquier otra película de terror&#63;</p>
         <p>Pues aquí tienes opciones para contactarte conmigo &#9829;</p>
@@ -47,73 +65,78 @@
             <li><b>&#9993; Correo electrónico:</b>evelyn.saw@pelishalloween.com</li>
             <li><b>Redes Sociales:</b>@Eve_SAW.1708</li>
         </ul>
-        <h3>&#9733; Formulario de sugerencias:</h3>
-        <form action="#" method="post">
-            <!-- tus datos -->
-            <fieldset>
-                <legend>Tus datos</legend>
 
-                <!--Nombre-->
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required maxlength="40" autofocus placeholder="Escribe tu nombre: ">
+        <article>
+            <h3>&#9733; Formulario de sugerencias:</h3>
+            <form action="#" method="post">
+                <!-- tus datos -->
+                <fieldset>
+                    <legend>Tus datos</legend>
+
+                    <!--Nombre-->
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required maxlength="40" autofocus placeholder="Escribe tu nombre: ">
                 
-                <!--Correo electrónico-->
-                <label for="correo">Correo electrónico:</label>
-                <input type="email" id="correo" name="correo" required placeholder="Escribe tu correo: ">
+                    <!--Correo electrónico-->
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required placeholder="Escribe tu correo: ">
 
-                <!--Teléfono-->
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono: ">
-            </fieldset>
+                    <!--Teléfono-->
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono: ">
+                </fieldset>
 
-            <!--Tus ideas-->
-            <fieldset>
-                <legend>Tus ideas</legend>
+                <!--Tus ideas-->
+                <fieldset>
+                    <legend>Tus ideas</legend>
 
-                <!--Selección saga de terror favorita-->
-                <label for="saga">Saga de terror favorita</label>
-                <select id="saga" name="saga">
-                    <option value="saw">Saw</option>
-                    <option value="Terrifier">Terrifier</option>
-                    <option value="warren">Expediente Warren</option>
-                    <option value="otras">otra</option>
-                </select>
+                    <!--Selección saga de terror favorita-->
+                    <label for="saga">Saga de terror favorita</label>
+                    <select id="saga" name="saga">
+                        <option value="saw">Saw</option>
+                        <option value="Terrifier">Terrifier</option>
+                        <option value="warren">Expediente Warren</option>
+                        <option value="otras">otra</option>
+                    </select>
 
-                <!--Extras deseados en la web-->
-                <p>&iquest;Qué te gustaría que añadiera a la web&#63;</p>
-                <input type="checkbox" id="c1" name="extras" value="newsletter" checked>
-                <label for="c1">Sección de votaciones con estrellitas</label>
+                    <!--Extras deseados en la web-->
+                    <p>&iquest;Qué te gustaría que añadiera a la web&#63;</p>
+                    <input type="checkbox" id="c1" name="extras" value="newsletter" checked>
+                    <label for="c1">Sección de votaciones con estrellitas</label>
 
-                <input type="checkbox" id="c2" name="extras" value="newsletter" checked>
-                <label for="c2">Sección de teorías sobre las películas</label>
+                    <input type="checkbox" id="c2" name="extras" value="newsletter" checked>
+                    <label for="c2">Sección de teorías sobre las películas</label>
 
-                <input type="checkbox" id="c3" name="extras" value="newsletter" checked>
-                <label for="c3">Sección de noticias sobre películas de terror</label>
+                    <input type="checkbox" id="c3" name="extras" value="newsletter" checked>
+                    <label for="c3">Sección de noticias sobre películas de terror</label>
                 
-                <!--Como conociste la página-->
-                <p>&iquest;Cómo conociste la página&#63;</p>
-                <input type="radio" id="r1" name="origen" value="redes_sociales" checked>
-                <label for="r1">Redes sociales</label>
+                    <!--Como conociste la página-->
+                    <p>&iquest;Cómo conociste la página&#63;</p>
+                    <input type="radio" id="r1" name="origen" value="redes_sociales" checked>
+                    <label for="r1">Redes sociales</label>
 
-                <input type="radio" id="r2" name="origen" value="busqueda" checked>
-                <label for="r2">Busqueda en internet</label>
+                    <input type="radio" id="r2" name="origen" value="busqueda" checked>
+                    <label for="r2">Busqueda en internet</label>
 
-                <input type="radio" id="r3" name="origen" value="amigos" checked>
-                <label for="r3">De un amigo</label>
+                    <input type="radio" id="r3" name="origen" value="amigos" checked>
+                    <label for="r3">De un amigo</label>
 
-                <br><br>
-                <label for="msg">Mensaje o propuesta de película</label><br>
-                <textarea id="msg" name="msg" rows="5" cols="40" minlength="10" placeholder="Escribe tu mensaje aquí..."></textarea>
-            </fieldset>
+                    <br><br>
+                    <label for="msg">Mensaje o propuesta de película</label><br>
+                    <textarea id="msg" name="msg" rows="5" cols="40" minlength="10" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </fieldset>
 
-            <br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-        </form>
-    </div>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
+        </article>
+    </section>
+    </main>
 
     <footer>
         <p>&copy; 2026 Evelyn Zubeldia González. Todos los derechos reservados</p>
+        <p id="firma-Evelyn">&copy; Evelyn</p>
     </footer>
 </body>
 </html>
