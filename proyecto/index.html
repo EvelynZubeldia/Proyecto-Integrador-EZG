@@ -10,76 +10,91 @@
     <meta name="author" content="Evelyn Zubeldia González">
 </head>
 <body>
-    <!--NAV: aquí irá el menú (UD4)-->
+    <header>
+        <!--Menú-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quiensoy.html">Quiénsoy</a></li>
+                <li><a href="saw.html">Saw</a></li>
+                <li><a href="terrifier.html">Terrifier</a></li>
+                <li><a href="warren.html">Expediente Warren</a></li>
+            </ul>
+        </nav>
 
-    <!--Introducción-->
-    <div>
-        <h1>Pelis de Halloween</h1>
-        <p>Bienvenidos a mi página web&#33; Soy Evelyn, conocida en mi núcleo de amigos como <i>Saw</i>, una gran fan del cine del terror <b>desde que tengo uso de razón</b></p>
-        <p>En esta página web encontrarás todas mis películas de terror favoritas.</p>
-    </div>
-    <hr>
-
-    <!--Lista de películas de terror favoritas-->
-    <div>
-        <h2>Mis películas de terror favoritas</h2>
-        <img  src="img/TERRIFIER.jpeg" alt="Imagen Terrifier" width="500">
-
+        <!--Introducción-->
         <div>
-            <h3>Mi lista</h3>
-                <ul>
-                    <li> SAW </li>
-                    <li> Terrifier </li>
-                    <li> Expediente Warren </li>
-                </ul>
+            <h1>Pelis de Halloween</h1>
+            <p>Bienvenidos a mi página web&#33; Soy Evelyn, conocida en mi núcleo de amigos como <i>Saw</i>, una gran fan del cine del terror <b>desde que tengo uso de razón</b></p>
+            <p>En esta página web encontrarás todas mis películas de terror favoritas.</p>
         </div>
-    </div>
-    <hr>
+        <hr>
+    </header>
 
-    <!--Enlaces a otras páginas-->
-    <div>
-        <p>
-            Puedes consultar más sobre cine de terror en
-            <a href="https://www.almasoscuras.com/" title="Almas Oscuras">Almas Oscuras</a>
-            <br>
-            o ver más información de mis películas favoritas en
-            <a href="datos.xml">Mis pelis favoritas</a>
-        </p>
-    </div>
-    <hr>
+    <main>
+        <!--Lista de películas de terror favoritas-->
+        <section>
+            <h2>Mis películas de terror favoritas</h2>
+            <img  src="img/TERRIFIER.jpeg" alt="Imagen Terrifier" width="500">
 
-    <!--Frases de las películas-->
-    <div>
-       <h2>Frases de las películas</h2> 
-            <blockquote>
-                <p>&laquo;El cuento de hadas es cierto. El diablo existe. Dios existe. Y nuestro propio destino depende de cuál elijamos seguir&raquo;</p>
-                <p>-Edd y Lorraine Warren (Expediente Warren)</p>
+            <article>
+                <h3>Mi lista</h3>
+                    <ul>
+                        <li> SAW </li>
+                        <li> Terrifier </li>
+                        <li> Expediente Warren </li>
+                    </ul>
+                </article>
+        </section>
+        <hr>
+
+        <!--Enlaces a otras páginas-->
+        <section>
+            <p>
+                Puedes consultar más sobre cine de terror en
+                <a href="https://www.almasoscuras.com/" title="Almas Oscuras">Almas Oscuras</a>
+                <br>
+                o ver más información de mis películas favoritas en
+                <a href="datos.xml">Mis pelis favoritas</a>
+            </p>
+        </section>
+        <hr>
+
+        <!--Frases de las películas-->
+        <section>
+            <h2>Frases de las películas</h2>
+                <article>
+                    <blockquote>
+                        <p>&laquo;El cuento de hadas es cierto. El diablo existe. Dios existe. Y nuestro propio destino depende de cuál elijamos seguir&raquo;</p>
+                        <p>-Edd y Lorraine Warren (Expediente Warren)</p>
                 
-                <p>&laquo;Vivir o Morir, tu decides&raquo;</p>
-                <p>-Jigsaw (SAW)</p>
+                        <p>&laquo;Vivir o Morir, tu decides&raquo;</p>
+                        <p>-Jigsaw (SAW)</p>
                 
-                <p>&laquo;Los está matando uno a uno... como vacas.&raquo;</p>
-                <p>-Cat Lady (Terrifier)</p>
-            </blockquote>
-    </div>
-    <hr>
+                        <p>&laquo;Los está matando uno a uno... como vacas.&raquo;</p>
+                        <p>-Cat Lady (Terrifier)</p>
+                    </blockquote>
+                </article> 
+        </section>
+        <hr>
 
-    <!--Breve información de las películas-->
-    <div>
-        <h2>Breve información de las películas</h2>
-        <pre>
-Pelicula      Director       Duracion
--------------------------------------
-SAW           James Wan      103.0 min
-Terrifier     Damien Leone    85.0 min
-Expediente W. James Wan      112.0 min
-        </pre>
-    </div>
-
+        <!--Breve información de las películas-->
+        <aside>
+            <h2>Breve información de las películas</h2>
+            <pre>
+        Pelicula      Director       Duracion
+        -------------------------------------
+        SAW           James Wan      103.0 min
+        Terrifier     Damien Leone    85.0 min
+        Expediente W. James Wan      112.0 min
+            </pre>
+        </aside>
+    </main>
    
-    <footer>
-        <p>&copy; 2026 Evelyn Zubeldia González. Todos los derechos reservados</p>
-    </footer>
+        <footer>
+            <p>&copy; 2026 Evelyn Zubeldia González. Todos los derechos reservados</p>
+            <p id="firma-Evelyn">&copy; Evelyn</p>
+        </footer>
     
 </body>
 </html>
