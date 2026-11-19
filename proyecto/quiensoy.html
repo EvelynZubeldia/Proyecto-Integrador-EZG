@@ -83,8 +83,17 @@
 
                     <!--Teléfono-->
                     <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono: ">
+                    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" maxlength="9" placeholder="Escribe tu teléfono: ">
+
+                    <!--Código postal-->
+                    <label for="cp">Código postal:</label>
+                    <input tipe="text" id="cp" name="cp" pattern="[0-9]{5}" maxlength="5" placeholder="41001" title="Introduce tu código postal">
+
+                    <!--Fecha de cumpleaños-->
+                    <label for="cumpleanos">Tu fecha de cumpleaños</label>
+                    <input tipe="date" id="cumpleanos" name="cumpleanos">
                 </fieldset>
+                <br>
 
                 <!--Tus ideas-->
                 <fieldset>
@@ -98,6 +107,17 @@
                         <option value="warren">Expediente Warren</option>
                         <option value="otras">otra</option>
                     </select>
+                    <br><br>
+
+                    <!--Puntuación de la web-->
+                    <label for="puntuacion">Puntuación general para la web:</label>
+                    <input type="number" id="puntuacion" name="puntuacion" min="1" max="10" step="0.5" value="9" required>
+                    <br><br>
+
+                    <!--Nivel de tolerancia al gore/terror-->
+                    <label for="tolerancia">&iquest;Cuánto aguantas antes de taparte los ojos&#63;</label> 
+                    <input type="range" id="tolerancia" name="tolerancia" min="0" max="10" step="0.5" value="75">
+                    <br><br>
 
                     <!--Extras deseados en la web-->
                     <p>&iquest;Qué te gustaría que añadiera a la web&#63;</p>
