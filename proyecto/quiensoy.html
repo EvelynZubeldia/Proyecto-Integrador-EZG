@@ -32,7 +32,10 @@
     <!--Información sobre la creadora-->
         <section>
             <h2>&#9733; Sobre la creadora</h2>
-            <img  src="img/Evelyn.jpg" alt="Foto mia con animatronico" width="500">
+            <figure>
+                <img  src="img/Evelyn.jpg" alt="Foto mia con animatronico" width="500">
+                <figcaption>Yo posando con un animatrónico de halloween gigante</figcaption>
+            </figure>
             <article>
                 <p>&iexcl; Holitaa &#33; Soy <b>Evelyn</b>. En mi núcleo cercano de amigos me llaman <i>Saw</i> porque el cine de terror y Halloween forma parte de mi vida.</p>
             </article>
@@ -47,8 +50,14 @@
                     <b>en mi familia siempre se ha celebrado Halloween a lo bestia</b>, convirtiendo cada año esta festividad en una
                     auténtica tradición llena de disfraces, ambiente y adrenalina.
                 </p>
-                <img  src="img/familia.jpg" alt="Foto familiar halloween 2024" width="500">
-                <img  src="img/Disfraz.jpg" alt="Foto familiar halloween 2024" width="500">
+                <figure>
+                    <img  src="img/familia.jpg" alt="Foto familiar halloween 2024" width="500">
+                    <figcaption>Yo y mi familia en Halloween 2024</figcaption>
+                </figure>
+                <figure>
+                    <img  src="img/Disfraz.jpg" alt="Foto familiar halloween 2024" width="500">
+                    <figcaption>Foto de mi disfraz ganador en 2024</figcaption>
+                </figure>
                 <p>&dagger;Esta página web nace con la ilusión de compartir mi gran pasión hacia el terror, sobretodo sus películas, que me han acompañado
                     a lo largo de todas mis etapas, y espero que así continúe siempre&dagger; 
                 </p>
@@ -87,11 +96,11 @@
 
                     <!--Código postal-->
                     <label for="cp">Código postal:</label>
-                    <input tipe="text" id="cp" name="cp" pattern="[0-9]{5}" maxlength="5" placeholder="41001" title="Introduce tu código postal">
+                    <input type="text" id="cp" name="cp" pattern="[0-9]{5}" maxlength="5" placeholder="41001" title="Introduce tu código postal">
 
                     <!--Fecha de cumpleaños-->
                     <label for="cumpleanos">Tu fecha de cumpleaños</label>
-                    <input tipe="date" id="cumpleanos" name="cumpleanos">
+                    <input type="date" id="cumpleanos" name="cumpleanos">
                 </fieldset>
                 <br>
 
@@ -151,6 +160,29 @@
                 <input type="reset" value="Borrar">
             </form>
         </article>
+    </section>
+    <hr>
+
+    <!--Preguntas frecuentes-->
+    <section>
+        <h2>&#9733; Preguntas frecuentes</h2>
+
+        <details open>
+            <summary>&iquest;Qué películas protagonizan esta web&#63;</summary>
+            <p>Aquí repaso mis sagas de terror favoritas como <strong>Saw</strong>, <strong>Terrifier</strong> y 
+                <strong>Expediente Warren</strong>.</p>
+        </details>
+
+        <details>
+            <summary>&iquest;Cómo puedo enviar sugerencias, recomendaciones de terror o simplemente hablar con la creadora de la web&#63;</summary>
+            <p>Puedes escribirme directamente por correo electrónico, redes sociales o rellenar el cuestionario de arriba.</p>
+        </details>
+
+        <details>
+            <summary>&iquest;Qué saga es la más sangrienta o dura de ver de las tres&#63;</summary>
+            <p>Sin dudar <strong>Terrifier</strong> se lleva la medalla a la que más gore explícito y película sin filtros, 
+                seguida de cerca por las trampas de <strong>Saw</strong> (y si te interesa, el código de cada ficha, va dentro de un &lt;Article&gt;)</p>
+        </details>
     </section>
     </main>
 
